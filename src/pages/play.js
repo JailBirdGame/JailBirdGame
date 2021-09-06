@@ -29,12 +29,12 @@ const HowToPlayPage = () => (
           Other Rules
         </p>
         <ul className="ruleStep__desc ruleStep__txt">
-          <li>After the police raid, place the police card at the bottom of the deck</li>
-          <li>When discarding cards, don't discard evidence cards!</li>
-          <li>If no one has evidence at the police raid, no one goes to jail. Place the police card at the bottom of the deck</li>
+          <li className="ruleStep__txt">After the police raid, place the police card at the bottom of the deck</li>
+          <li className="ruleStep__txt">When discarding cards, don't discard evidence cards!</li>
+          <li className="ruleStep__txt">If no one has evidence at the police raid, no one goes to jail. Place the police card at the bottom of the deck</li>
         </ul>
       </div>
-      <div className="contentsSquared leftText">
+      <div className="contentsSquared rightText">
         <p className="ruleStep__title ruleStep__txt">
           Tie Breaker!
         </p>
@@ -42,9 +42,9 @@ const HowToPlayPage = () => (
           If two or more players tie for the same amount of evidence at the end of the police raid:
         </p>
         <ul className="ruleStep__desc ruleStep__txt">
-          <li>The player with the least amount of cards goes to jail</li>
-          <li>If players are still tied, the player with the least amount of Action cards in hand goes to jail</li>
-          <li>If they're still tied, they must crow like a rooster</li>
+          <li className="ruleStep__txt">The player with the least amount of cards goes to jail</li>
+          <li className="ruleStep__txt">If players are still tied, the player with the least amount of Action cards in hand goes to jail</li>
+          <li className="ruleStep__txt">If they're still tied, they must crow like a rooster</li>
         </ul>
       </div>
     </div>
