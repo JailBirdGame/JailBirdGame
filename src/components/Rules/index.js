@@ -10,10 +10,10 @@ const RulesSection = () => {
     <div className="rulesSection">
       <div className="contentsSquared leftText">
         <p className="ruleStep__title ruleStep__txt">
-          On your turn draw up to three cards
+          On your turn draw one card
         </p>
         <p className="ruleStep__desc ruleStep__txt">
-          If you draw an <span className="orange">event card</span> your turn
+          If you draw a purple <span className="orange">event card</span> your turn
           ends, and the event happens
         </p>
       </div>
@@ -22,7 +22,7 @@ const RulesSection = () => {
       <RuleStep2Img className="ruleImg ruleImg2 leftImg" />
       <div className="contentsSquared rightText">
         <p className="ruleStep__title ruleStep__txt">
-          Then play up to three cards
+          Then play as many cards as you want
         </p>
         <p className="ruleStep__desc ruleStep__txt">
           You want to move <span className="orange">evidence</span> cards to

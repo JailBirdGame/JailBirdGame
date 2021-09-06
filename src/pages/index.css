@@ -14,6 +14,10 @@ html {
   color: var(--brand-orange);
 }
 
+.purple {
+  color: purple;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
 }
