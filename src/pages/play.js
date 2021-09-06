@@ -22,7 +22,8 @@ const HowToPlayPage = () => (
       />
     </div>
     <RulesSection />
-
+    <br />
+    <br />
     <div className="rulesSection">
       <div className="contentsSquared leftText">
         <p className="ruleStep__title ruleStep__txt">
